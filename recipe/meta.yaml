@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 1001
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -24,7 +24,7 @@ requirements:
     - python
     - pandas
     - numpy
-    - matplotlib
+    - matplotlib-base
     - ipywidgets >=7.0.0
     - scipy
     - funcsigs  # [py2k]
